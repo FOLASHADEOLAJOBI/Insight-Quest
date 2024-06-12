@@ -1,4 +1,4 @@
-CREATE TABLE covid_analysis (
+CREATE TABLE coronavirus (
     province VARCHAR(30),
     country VARCHAR(30),
     latitude FLOAT,
@@ -8,11 +8,11 @@ CREATE TABLE covid_analysis (
     deaths INT,
     recovered INT,
     file_date DATETIME);
-select * from covid_analysis;
-INSERT INTO covid_analysis values();
+select * from coronavirus;
+INSERT INTO coronavirus values();
 show databases;
-use covid_analysis;
-select * from covid_analysis;
+use coronavirus;
+select * from coronavirus;
 
 To avoid any errors, check missing value / null value 
 -- Q1. Write a code to check NULL values
